@@ -28,7 +28,8 @@ const Contact = () => {
         ).then(
             () => {
                 alert('Message successfully sent!')
-                window.location.reload(false)
+                // push back
+                refForm.current.reset()
             }, () => {
                 alert('Failed to sent message')
             }
