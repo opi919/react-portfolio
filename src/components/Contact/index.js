@@ -4,9 +4,10 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { toast } from "react-toastify";
 
 const Contact = () => {
-    
+
     const [letterClass, setLetterClass] = useState('text-animate')
 
     const refForm = useRef()
@@ -14,7 +15,7 @@ const Contact = () => {
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 2000)
+        }, 5000)
     }, [])
 
     const sendEmail = (e) => {
@@ -27,11 +28,11 @@ const Contact = () => {
             process.env.REACT_APP_PUBLIC_KEY
         ).then(
             () => {
-                alert('Message successfully sent!')
+                toast.success('Message sent successfully')
                 // push back
                 refForm.current.reset()
             }, () => {
-                alert('Failed to sent message')
+                toast.error('Message not sent')
             }
         )
     }

@@ -85,6 +85,11 @@
                     content: 'ABOUT';
                 }
             }
+            &.skill-link {
+                &::after {
+                    content: 'SKILLS';
+                }
+            }
         }
 
         .active svg {
