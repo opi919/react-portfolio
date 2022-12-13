@@ -45,7 +45,7 @@ const Skills = () => {
             { label: 'Firebase' },
             { label: 'Heroku' },
             { label: 'Kotlin' },
-            { label: 'Tailwind' },
+            { label: 'Tailwind css' },
             { label: 'VsCode' },
             { label: 'Android' },
 
@@ -54,8 +54,8 @@ const Skills = () => {
         var settings = {
 
             entries: entries,
-            width: 580,
-            height: 580,
+            width: 680,
+            height: 680,
             radius: '65%',
             radiusMin: 75,
             bgDraw: false,
@@ -63,7 +63,7 @@ const Skills = () => {
             opacityOver: 1.00,
             opacityOut: 0.05,
             opacitySpeed: 6,
-            fov: 800,
+            fov: 350,
             speed: 1,
             fontFamily: 'Oswald, Arial, sans-serif',
             fontSize: '18',
@@ -97,6 +97,15 @@ const Skills = () => {
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={['S', 'k', 'i', 'l', 'l', 's', ' ', '&', ' ', 'E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e']} idx={5} />
                     </h1>
+                    <p>
+                        Expert in front-end development and experience in back-end development including technologies like <span>Html5</span>, <span>CSS3</span>, <span>JavaScript</span>, <span>React</span>, <span>Bootstrap</span>, <span>Tailwind CSS</span>, <span>Jquery</span>, <span>Flutter</span>, <span>Dart</span>, <span>Firebase</span>, <span>Heroku</span>, <span>Laravel</span>, <span>Lumen</span>, <span>Nodejs</span>, <span>Mysql</span>.
+                    </p>
+                    <p>
+                        I'm not a designer but i have a good sense of design and experience in backend development with <span>Laravel</span>. I put special effort into optimizing and providing a good user experience. I would love to give you a hand with your project. I guranatee a commitment during the project and a good communication.
+                    </p>
+                    <p>
+                        Visit my <a href="">Linkedin</a> profile for more details. Also, you can check out my resume <a href="">here</a>.
+                    </p>
                 </div>
                 <div className="animation-zone">
                     <div className='tag' id='tag'></div>

@@ -71,6 +71,9 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+                <div className="map-zone">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7269.163168327085!2d88.62663392652055!3d24.36106371077128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefd987321753%3A0xaeeaf3cccca5149a!2sKazla%2C%20Rajshahi!5e0!3m2!1sen!2sbd!4v1670951310331!5m2!1sen!2sbd" width="800" height="600" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             <Loader type='pacman' />
         </>
