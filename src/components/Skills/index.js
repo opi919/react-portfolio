@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import $ from 'jquery'
 import "../../assets/3D-Interactive-SVG-Tag-Cloud-Plugin-With-jQuery-SVG-3D-Tag-Cloud/js/jquery.svg3dtagcloud"
+import resume from "../../assets/resume.pdf"
 
 const Skills = () => {
 
@@ -98,13 +99,13 @@ const Skills = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={['S', 'k', 'i', 'l', 'l', 's', ' ', '&', ' ', 'E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e']} idx={5} />
                     </h1>
                     <p>
-                        Expert in front-end development and experience in back-end development including technologies like <span>Html5</span>, <span>CSS3</span>, <span>JavaScript</span>, <span>React</span>, <span>Bootstrap</span>, <span>Tailwind CSS</span>, <span>Jquery</span>, <span>Flutter</span>, <span>Dart</span>, <span>Firebase</span>, <span>Heroku</span>, <span>Laravel</span>, <span>Lumen</span>, <span>Nodejs</span>, <span>Mysql</span>.
+                        Experience in front-end and back-end development including technologies like <span>Html5</span>, <span>CSS3</span>, <span>JavaScript</span>, <span>React</span>, <span>Bootstrap</span>, <span>Tailwind CSS</span>, <span>Jquery</span>, <span>Flutter</span>, <span>Dart</span>, <span>Firebase</span>, <span>Heroku</span>, <span>Laravel</span>, <span>Lumen</span>, <span>Nodejs</span>, <span>Mysql</span>.
                     </p>
                     <p>
                         I'm not a designer but i have a good sense of design and experience in backend development with <span>Laravel</span>. I put special effort into optimizing and providing a good user experience. I would love to give you a hand with your project. I guranatee a commitment during the project and a good communication.
                     </p>
                     <p>
-                        Visit my <a href="">Linkedin</a> profile for more details. Also, you can check out my resume <a href="">here</a>.
+                        Visit my <a href="https://www.linkedin.com/in/momen-khandoker-048110214/">Linkedin</a> profile for more details. Also, you can check out my resume <a href={resume} download="MyResume">here</a>.
                     </p>
                 </div>
                 <div className="animation-zone">
