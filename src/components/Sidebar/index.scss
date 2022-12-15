@@ -90,6 +90,11 @@
                     content: 'SKILLS';
                 }
             }
+            &.project-link{
+                &::after {
+                    content: 'PROJECTS';
+                }   
+            }
         }
 
         .active svg {

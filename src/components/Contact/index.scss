@@ -72,6 +72,8 @@
     margin-top: -5vh;
     width: 50%;
     float: right;
+    opacity: 0;
+    animation: fadeInUp 2s 2s forwards;
 
     iframe{
         height: 100%;
