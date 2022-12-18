@@ -6,6 +6,8 @@ import "./index.scss"
 import $ from 'jquery'
 import { faReact } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css";
 
 const Projects = () => {
 

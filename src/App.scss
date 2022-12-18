@@ -18,6 +18,12 @@ $primay-color: #ffd700;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+.App{
+  display: block;
+  height: 100vh;
+  width: 100vw;
+}
+
 body{
   user-select: none;
 }

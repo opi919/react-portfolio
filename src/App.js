@@ -12,7 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <ToastContainer />
       <Routes>
         {/* if path is / then redirect to /home */}
@@ -25,7 +25,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
-    </>
+    </div>
   );
 }
 
