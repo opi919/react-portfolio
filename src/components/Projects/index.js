@@ -4,10 +4,11 @@ import AnimatedLetters from "../AnimatedLetters"
 import Slider from "react-slick"
 import "./index.scss"
 import $ from 'jquery'
-import { faReact } from "@fortawesome/free-brands-svg-icons"
+import { faReact, faJsSquare, faHtml5, faSass, faPhp, faCss3, faLaravel } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 
 const Projects = () => {
 
@@ -21,11 +22,11 @@ const Projects = () => {
 
     const settings = {
         infinite: true,
-        speed: 300,
+        speed: 500,
         slidesToShow: 1,
         centerMode: true,
         variableWidth: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 5000,
     }
 
@@ -41,51 +42,23 @@ const Projects = () => {
                             <div className="card mx-5">
                                 <div className="card-body">
                                     <div className="left-part">
-                                        <div className="card-title">Advanced</div>
+                                        <div className="card-title">Basic</div>
                                         <div className="card-text">
-                                            React Native with Typescript Tutorial
+                                            BlackJack Game
                                         </div>
                                         <div className="bottom">
-                                            <ul className="card-ul mt-5">
-                                                {/* li with icon */}
+                                            <ul className="card-ul">
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-2">React Native</span>
+                                                    <FontAwesomeIcon icon={faHtml5} color='#F06529' />
+                                                    <span className="ml-2">Html</span>
                                                 </li>
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-1">React Native</span>
-                                                </li>
-                                            </ul>
-                                            <button className="btn mt-3">Git hub</button>
-                                        </div>
-                                    </div>
-                                    <div className="right-part">
-                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
-                                        <span className="free">FREE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <div className="left-part">
-                                        <div className="card-title">Advanced</div>
-                                        <div className="card-text">
-                                            React Native with Typescript Tutorial
-                                        </div>
-                                        <div className="bottom">
-                                            <ul className="card-ul mt-5">
-                                                {/* li with icon */}
-                                                <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="">React Native</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="">React Native</span>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
                                                 </li>
                                             </ul>
-                                            <button className="btn">Github</button>
+                                            <button className="btn" style={{ marginRight: "5px" }}><a href="https://github.com/opi919/blackJack-game" target="_blank">Github</a></button>
+                                            <button className="btn"><a href="https://opi919.github.io/blackJack-game/" target="_blank">Wbsite</a></button>
                                         </div>
                                     </div>
                                     <div className="right-part">
@@ -99,21 +72,25 @@ const Projects = () => {
                                     <div className="left-part">
                                         <div className="card-title">Advanced</div>
                                         <div className="card-text">
-                                            React Native with Typescript Tutorial
+                                            Natours advanced css and sass
                                         </div>
                                         <div className="bottom">
-                                            <ul className="card-ul mt-5">
-                                                {/* li with icon */}
+                                            <ul className="card-ul">
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-2">React Native</span>
+                                                    <FontAwesomeIcon icon={faHtml5} color='#F06529' />
+                                                    <span className="ml-2">Html</span>
                                                 </li>
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-1">React Native</span>
+                                                    <FontAwesomeIcon icon={faSass} color='#c76494' />
+                                                    <span className="ml-2">Sass</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faPhp} color='#464a85' />
+                                                    <span className="ml-2">PHP</span>
                                                 </li>
                                             </ul>
-                                            <button className="btn mt-3">Git hub</button>
+                                            <button className="btn" style={{ marginRight: "5px" }}><a href="https://github.com/opi919/natours-advanced-css-and-sass" target="_blank">Github</a></button>
+                                            <button className="btn"><a href="https://opi919.github.io/natours-advanced-css-and-sass/" target="_blank">Wbsite</a></button>
                                         </div>
                                     </div>
                                     <div className="right-part">
@@ -127,21 +104,89 @@ const Projects = () => {
                                     <div className="left-part">
                                         <div className="card-title">Advanced</div>
                                         <div className="card-text">
-                                            React Native with Typescript Tutorial
+                                            Matching Game
                                         </div>
                                         <div className="bottom">
-                                            <ul className="card-ul mt-5">
-                                                {/* li with icon */}
+                                            <ul className="card-ul">
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-2">React Native</span>
+                                                    <FontAwesomeIcon icon={faHtml5} color='#F06529' />
+                                                    <span className="ml-2">Html</span>
                                                 </li>
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-1">React Native</span>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faCss3} color='#254bdd' />
+                                                    <span className="ml-2">CSS</span>
                                                 </li>
                                             </ul>
-                                            <button className="btn mt-3">Git hub</button>
+                                            <button className="btn" style={{ marginRight: "5px" }}><a href="https://github.com/opi919/matching-game" target="_blank">Github</a></button>
+                                            <button className="btn"><a href="https://opi919.github.io/matching-game/" target="_blank">Wbsite</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Basic</div>
+                                        <div className="card-text">
+                                            Rock Paper Scissor
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faHtml5} color='#F06529' />
+                                                    <span className="ml-2">Html</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faCss3} color='#254bdd' />
+                                                    <span className="ml-2">CSS</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn" style={{ marginRight: "5px" }}><a href="https://github.com/opi919/rock-paper-scissor" target="_blank">Github</a></button>
+                                            <button className="btn"><a href="https://opi919.github.io/rock-paper-scissor/" target="_blank">Wbsite</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Basic</div>
+                                        <div className="card-text">
+                                            Pig Game
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faHtml5} color='#F06529' />
+                                                    <span className="ml-2">Html</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faCss3} color='#254bdd' />
+                                                    <span className="ml-2">CSS</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn" style={{ marginRight: "5px" }}><a href="https://github.com/opi919/pig-game" target="_blank">Github</a></button>
+                                            <button className="btn"><a href="https://opi919.github.io/pig-game/" target="_blank">Wbsite</a></button>
                                         </div>
                                     </div>
                                     <div className="right-part">
@@ -155,21 +200,86 @@ const Projects = () => {
                                     <div className="left-part">
                                         <div className="card-title">Advanced</div>
                                         <div className="card-text">
-                                            React Native with Typescript Tutorial
+                                            Amar Vasha
                                         </div>
                                         <div className="bottom">
-                                            <ul className="card-ul mt-5">
-                                                {/* li with icon */}
+                                            <ul className="card-ul">
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-2">React Native</span>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
                                                 </li>
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-1">React Native</span>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
                                                 </li>
                                             </ul>
-                                            <button className="btn mt-3">Git hub</button>
+                                            <button className="btn"><a href="https://amarvasha.tinkers.ltd/" target="_blank">Wbsite</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Basic</div>
+                                        <div className="card-text">
+                                            Tinkers Technologies Limited
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn"><a href="https://tinkers.ltd/about" target="_blank">Wbsite</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Basic</div>
+                                        <div className="card-text">
+                                            Library Management System
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn"><a href="https://github.com/opi919/Laravel-Library-Management" target="_blank">Github</a></button>
                                         </div>
                                     </div>
                                     <div className="right-part">
@@ -183,21 +293,24 @@ const Projects = () => {
                                     <div className="left-part">
                                         <div className="card-title">Advanced</div>
                                         <div className="card-text">
-                                            React Native with Typescript Tutorial
+                                            Content Management System
                                         </div>
                                         <div className="bottom">
-                                            <ul className="card-ul mt-5">
-                                                {/* li with icon */}
+                                            <ul className="card-ul">
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-2">React Native</span>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
                                                 </li>
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-1">React Native</span>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
                                                 </li>
                                             </ul>
-                                            <button className="btn mt-3">Git hub</button>
+                                            <button className="btn"><a href="https://content.amarvasha.net/login" target="_blank">Website</a></button>
                                         </div>
                                     </div>
                                     <div className="right-part">
@@ -211,21 +324,24 @@ const Projects = () => {
                                     <div className="left-part">
                                         <div className="card-title">Advanced</div>
                                         <div className="card-text">
-                                            React Native with Typescript Tutorial
+                                            School Management System
                                         </div>
                                         <div className="bottom">
-                                            <ul className="card-ul mt-5">
-                                                {/* li with icon */}
+                                            <ul className="card-ul">
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-2">React Native</span>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
                                                 </li>
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-1">React Native</span>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
                                                 </li>
                                             </ul>
-                                            <button className="btn mt-3">Git hub</button>
+                                            <button className="btn"><a href="https://github.com/opi919/School-Management-Syestem" target="_blank">Github</a></button>
                                         </div>
                                     </div>
                                     <div className="right-part">
@@ -239,21 +355,24 @@ const Projects = () => {
                                     <div className="left-part">
                                         <div className="card-title">Advanced</div>
                                         <div className="card-text">
-                                            React Native with Typescript Tutorial
+                                            Easy memo app
                                         </div>
                                         <div className="bottom">
-                                            <ul className="card-ul mt-5">
-                                                {/* li with icon */}
+                                            <ul className="card-ul">
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-2">React Native</span>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
                                                 </li>
                                                 <li>
-                                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
-                                                    <span className="ml-1">React Native</span>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
                                                 </li>
                                             </ul>
-                                            <button className="btn mt-3">Git hub</button>
+                                            <button className="btn"><a href="https://github.com/opi919/EasyMemo" target="_blank">Github</a></button>
                                         </div>
                                     </div>
                                     <div className="right-part">
