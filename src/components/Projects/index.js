@@ -42,6 +42,192 @@ const Projects = () => {
                             <div className="card mx-5">
                                 <div className="card-body">
                                     <div className="left-part">
+                                        <div className="card-title">Advanced</div>
+                                        <div className="card-text">
+                                            Amar Vasha
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn"><a href="https://amarvasha.tinkers.ltd/" target="_blank">Wbsite</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Basic</div>
+                                        <div className="card-text">
+                                            Tinkers Technologies Limited
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn"><a href="https://tinkers.ltd" target="_blank">Wbsite</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Basic</div>
+                                        <div className="card-text">
+                                            Library Management System
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn"><a href="https://github.com/opi919/Laravel-Library-Management" target="_blank">Github</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Advanced</div>
+                                        <div className="card-text">
+                                            Learning Management System
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn"><a href="https://content.amarvasha.net/login" target="_blank">Website</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Advanced</div>
+                                        <div className="card-text">
+                                            School Management System
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn"><a href="https://github.com/opi919/School-Management-Syestem" target="_blank">Github</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
+                                        <div className="card-title">Advanced</div>
+                                        <div className="card-text">
+                                            Easy memo app
+                                        </div>
+                                        <div className="bottom">
+                                            <ul className="card-ul">
+                                                <li>
+                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
+                                                    <span className="ml-2">Laravel</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
+                                                    <span className="ml-2">Javascript</span>
+                                                </li>
+                                                <li>
+                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
+                                                    <span className="ml-2">MySQL</span>
+                                                </li>
+                                            </ul>
+                                            <button className="btn"><a href="https://github.com/opi919/EasyMemo" target="_blank">Github</a></button>
+                                        </div>
+                                    </div>
+                                    <div className="right-part">
+                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
+                                        <span className="free">FREE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mx-5">
+                                <div className="card-body">
+                                    <div className="left-part">
                                         <div className="card-title">Basic</div>
                                         <div className="card-text">
                                             BlackJack Game
@@ -187,192 +373,6 @@ const Projects = () => {
                                             </ul>
                                             <button className="btn" style={{ marginRight: "5px" }}><a href="https://github.com/opi919/pig-game" target="_blank">Github</a></button>
                                             <button className="btn"><a href="https://opi919.github.io/pig-game/" target="_blank">Wbsite</a></button>
-                                        </div>
-                                    </div>
-                                    <div className="right-part">
-                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
-                                        <span className="free">FREE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card mx-5">
-                                <div className="card-body">
-                                    <div className="left-part">
-                                        <div className="card-title">Advanced</div>
-                                        <div className="card-text">
-                                            Amar Vasha
-                                        </div>
-                                        <div className="bottom">
-                                            <ul className="card-ul">
-                                                <li>
-                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
-                                                    <span className="ml-2">Laravel</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
-                                                    <span className="ml-2">Javascript</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
-                                                    <span className="ml-2">MySQL</span>
-                                                </li>
-                                            </ul>
-                                            <button className="btn"><a href="https://amarvasha.tinkers.ltd/" target="_blank">Wbsite</a></button>
-                                        </div>
-                                    </div>
-                                    <div className="right-part">
-                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
-                                        <span className="free">FREE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card mx-5">
-                                <div className="card-body">
-                                    <div className="left-part">
-                                        <div className="card-title">Basic</div>
-                                        <div className="card-text">
-                                            Tinkers Technologies Limited
-                                        </div>
-                                        <div className="bottom">
-                                            <ul className="card-ul">
-                                                <li>
-                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
-                                                    <span className="ml-2">Laravel</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
-                                                    <span className="ml-2">Javascript</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
-                                                    <span className="ml-2">MySQL</span>
-                                                </li>
-                                            </ul>
-                                            <button className="btn"><a href="https://tinkers.ltd/about" target="_blank">Wbsite</a></button>
-                                        </div>
-                                    </div>
-                                    <div className="right-part">
-                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
-                                        <span className="free">FREE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card mx-5">
-                                <div className="card-body">
-                                    <div className="left-part">
-                                        <div className="card-title">Basic</div>
-                                        <div className="card-text">
-                                            Library Management System
-                                        </div>
-                                        <div className="bottom">
-                                            <ul className="card-ul">
-                                                <li>
-                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
-                                                    <span className="ml-2">Laravel</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
-                                                    <span className="ml-2">Javascript</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
-                                                    <span className="ml-2">MySQL</span>
-                                                </li>
-                                            </ul>
-                                            <button className="btn"><a href="https://github.com/opi919/Laravel-Library-Management" target="_blank">Github</a></button>
-                                        </div>
-                                    </div>
-                                    <div className="right-part">
-                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
-                                        <span className="free">FREE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card mx-5">
-                                <div className="card-body">
-                                    <div className="left-part">
-                                        <div className="card-title">Advanced</div>
-                                        <div className="card-text">
-                                            Content Management System
-                                        </div>
-                                        <div className="bottom">
-                                            <ul className="card-ul">
-                                                <li>
-                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
-                                                    <span className="ml-2">Laravel</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
-                                                    <span className="ml-2">Javascript</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
-                                                    <span className="ml-2">MySQL</span>
-                                                </li>
-                                            </ul>
-                                            <button className="btn"><a href="https://content.amarvasha.net/login" target="_blank">Website</a></button>
-                                        </div>
-                                    </div>
-                                    <div className="right-part">
-                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
-                                        <span className="free">FREE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card mx-5">
-                                <div className="card-body">
-                                    <div className="left-part">
-                                        <div className="card-title">Advanced</div>
-                                        <div className="card-text">
-                                            School Management System
-                                        </div>
-                                        <div className="bottom">
-                                            <ul className="card-ul">
-                                                <li>
-                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
-                                                    <span className="ml-2">Laravel</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
-                                                    <span className="ml-2">Javascript</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
-                                                    <span className="ml-2">MySQL</span>
-                                                </li>
-                                            </ul>
-                                            <button className="btn"><a href="https://github.com/opi919/School-Management-Syestem" target="_blank">Github</a></button>
-                                        </div>
-                                    </div>
-                                    <div className="right-part">
-                                        <img className="card-img-top" src="https://picsum.photos/200/300" />
-                                        <span className="free">FREE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card mx-5">
-                                <div className="card-body">
-                                    <div className="left-part">
-                                        <div className="card-title">Advanced</div>
-                                        <div className="card-text">
-                                            Easy memo app
-                                        </div>
-                                        <div className="bottom">
-                                            <ul className="card-ul">
-                                                <li>
-                                                    <FontAwesomeIcon icon={faLaravel} color='#DD0031' />
-                                                    <span className="ml-2">Laravel</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D' />
-                                                    <span className="ml-2">Javascript</span>
-                                                </li>
-                                                <li>
-                                                    <FontAwesomeIcon icon={faDatabase} color='#ea8c10' />
-                                                    <span className="ml-2">MySQL</span>
-                                                </li>
-                                            </ul>
-                                            <button className="btn"><a href="https://github.com/opi919/EasyMemo" target="_blank">Github</a></button>
                                         </div>
                                     </div>
                                     <div className="right-part">

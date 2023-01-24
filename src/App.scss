@@ -20,8 +20,8 @@ $primay-color: #ffd700;
 
 .App{
   display: block;
-  height: 100vh;
-  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
 }
 
 body{

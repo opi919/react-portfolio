@@ -89,11 +89,11 @@
                 &::after {
                     content: 'SKILLS';
                 }
-            }
-            &.project-link{
+            } 
+            &.project-link {
                 &::after {
                     content: 'PROJECTS';
-                }   
+                }
             }
         }
 
